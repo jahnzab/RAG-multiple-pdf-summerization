@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyD9kmbO735ZRG-Vnk-iegTodps0ASbQq7A")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "your actual api key here")
 persist_directory = "./db"  # Directory for ChromaDB to store vectors
 
 # Check API key loaded
